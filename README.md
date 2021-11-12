@@ -1,2 +1,2 @@
 # grid-web-simular
- para simular a criaçao, copiei do site https://codepen.io/angeladelise/pen/YzXLdyq
+ estou testando o que ja aprendi, estou criando algo do zero.
