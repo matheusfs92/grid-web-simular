@@ -51,8 +51,24 @@ https://www.youtube.com/watch?v=US_3XvufMLU
 /* -----  daqui para baixo vou colocar as fotos e tentar em caixar o mais bonito possivel.
 sempre comentando para saber o que fiz. Para lembrar mesmo */
 
+/*
+vamos mexer na tag main
+*/
+.Layout {
+
+  /*
+fiz asim para ver a linha e outra coisa tive que colocar a margin 0 para juntar com a home
+*/
+  background:#b8babd;
+  margin: 0px;
+
+}
+
+
+
+
+
 footer{
-  padding: 0.1px;
   text-align: center;
 }
 
