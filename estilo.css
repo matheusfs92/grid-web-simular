@@ -47,20 +47,9 @@ https://www.youtube.com/watch?v=US_3XvufMLU
 
 flex-wrap: wrap; para saber mais
 https://www.youtube.com/watch?v=kopfA6nG4NM
-*/
-
-/*
-menu {
-  display: flex;
-}
-
-.menu li {
-  margin-left: 25px;
-}
 
 estava mexendo numa img, voi tirar e colocar no css mesmo
-
-
+*/
 
 /* -----  daqui para baixo vou colocar as fotos e tentar em caixar o mais bonito possivel.
 sempre comentando para saber o que fiz. Para lembrar mesmo */
@@ -85,8 +74,16 @@ fiz asim para ver a linha e outra coisa tive que colocar a margin 0 para juntar 
 
 }
 
+/*
+posso dar valor fixo na foto caso queira pelo comendo 
+height: 200px; ou posso uasr o - display: flex - sozinho ;
+
+*/
+
+
 .cripto {
   display: flex;
+  height: 200px;
   background-image: url("/fotos-math/minhascriptofavoritas.png");
   margin: 0px;
   padding: 0px;
