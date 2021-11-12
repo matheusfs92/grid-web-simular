@@ -42,14 +42,18 @@ flex-wrap: wrap; para saber mais
 https://www.youtube.com/watch?v=kopfA6nG4NM
 */
 
-
-.menu {
+/* 
+menu {
   display: flex;
 }
 
 .menu li {
   margin-left: 25px;
 }
+
+estava mexendo numa img, voi tirar e colocar no css mesmo
+
+*/
 
 /* -----  daqui para baixo vou colocar as fotos e tentar em caixar o mais bonito possivel.
 sempre comentando para saber o que fiz. Para lembrar mesmo */
@@ -74,13 +78,21 @@ fiz asim para ver a linha e outra coisa tive que colocar a margin 0 para juntar 
 
 }
 
+.cripto {
+  display: flex;
+  background-image: url("/fotos-math/minhascriptofavoritas.png");
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+}
+  
+}
+
 .amarelo{
   background:#c3ec09;
 }
 
-.meio{
-  
-}
+
 
 /*
 nao usar esta propreidade ´para centralizar a imagens
