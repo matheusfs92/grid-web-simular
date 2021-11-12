@@ -28,12 +28,17 @@ a {
    justify-content: space-between;
    align-items: center;
    /*o padding: 20px vai deixar a linha preta maior(testa)*/
-   /*mudei para 5*/
+   /*mudei para 15*/
    padding: 15px;
    /*o border vai colocar uma linha sobre caixa preta ops, sempre colocar o px*/
-   border:rgb(248, 4, 4) 2px solid
-
+   border:rgb(248, 4, 4) 2px solid;
 }
+
+
+/*min-height: calc(100vh - 211px - 58px); serve para afastar o que ta no meio do site do que ta no final
+https://www.youtube.com/watch?v=US_3XvufMLU
+*/
+
 
 .menu {
   display: flex;
@@ -48,10 +53,14 @@ sempre comentando para saber o que fiz saber para que aquilo serve, para lembrar
 
 footer{
   padding: 0.1px;
-  text-align: center; 
+  text-align: center;
 }
 
 footer{
   background: #0354f7;
 }
+
+/*usar amanha, ver para q serve
+bottom: 0%;
+*/
 
