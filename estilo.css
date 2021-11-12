@@ -80,23 +80,25 @@ height: 200px; ou posso uasr o - display: flex - sozinho ;
 
 */
 
-
 .cripto {
   display: flex;
   height: 200px;
   background-image: url("/fotos-math/minhascriptofavoritas.png");
   margin: 0px;
   padding: 0px;
+  /*
+  colocar o texto no centro
+*/
   justify-content: center;
+  /*
+  background-repeat: no-repeat; para nao repitir a img
+*/
   background-repeat: no-repeat;
 }
   
-
 .amarelo{
   background:#c3ec09;
 }
-
-
 
 /*
 nao usar esta propreidade ´para centralizar a imagens
@@ -110,14 +112,7 @@ nao ta funconando tambem
   justify-content: center;
 
   vou tentar outras coisas
-
-
-
 */
-
-
-
-
 /*
 aqui consigo mexer no tamanho do meu texto
 margin: 0px; para nao dar espaçamento entre meu layout e o texto
@@ -126,7 +121,6 @@ p {
   font-size: 15px ;
   margin: 0px;
 }
-
 
 footer{
   text-align: center;
