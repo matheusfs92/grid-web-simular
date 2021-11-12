@@ -37,6 +37,9 @@ a {
 
 /*min-height: calc(100vh - 211px - 58px); serve para afastar o que ta no meio do site do que ta no final
 https://www.youtube.com/watch?v=US_3XvufMLU
+
+flex-wrap: wrap; para saber mais
+https://www.youtube.com/watch?v=kopfA6nG4NM
 */
 
 
@@ -74,6 +77,30 @@ fiz asim para ver a linha e outra coisa tive que colocar a margin 0 para juntar 
 .amarelo{
   background:#c3ec09;
 }
+
+.meio{
+  
+}
+
+/*
+nao usar esta propreidade ´para centralizar a imagens
+
+transform: translate(30%, 0%)
+
+
+nao ta funconando tambem 
+
+ align-content: center;
+  justify-content: center;
+
+  vou tentar outras coisas
+
+
+
+*/
+
+
+
 
 /*
 aqui consigo mexer no tamanho do meu texto
