@@ -94,6 +94,9 @@ height: 200px; ou posso uasr o - display: flex - sozinho ;
   background-repeat: no-repeat; para nao repitir a img
 */
   background-repeat: no-repeat;
+  /*vamos definir o tamanho da img  coso querer consigo mexer no px ou %*/
+  background-size: 100%;
+
 }
   
 .amarelo{
