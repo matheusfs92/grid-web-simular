@@ -97,10 +97,10 @@ height: 200px; ou posso uasr o - display: flex - sozinho ;
   /*vamos definir o tamanho da img  coso querer consigo mexer no px ou % 
   background-size: contain;
   background-size: px;
-  background-size: 100%;
-  */
+  background-size: 100%;*/
   background-size: contain;
-
+  /*colocando a img no centro da pagina*/
+ background-position: center;
 }
   
 .amarelo{
