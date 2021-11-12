@@ -54,6 +54,7 @@ sempre comentando para saber o que fiz. Para lembrar mesmo */
 /*
 vamos mexer na tag main
 */
+
 .Layout {
 
   /*
@@ -61,11 +62,27 @@ fiz asim para ver a linha e outra coisa tive que colocar a margin 0 para juntar 
 */
   background:#b8babd;
   margin: 0px;
+  text-align: center;
 
 }
 
+.roxo{
+  background:#c10ed1;
 
+}
 
+.amarelo{
+  background:#c3ec09;
+}
+
+/*
+aqui consigo mexer no tamanho do meu texto
+margin: 0px; para nao dar espaçamento entre meu layout e o texto
+*/
+p {
+  font-size: 15px ;
+  margin: 0px;
+}
 
 
 footer{
