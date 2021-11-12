@@ -8,6 +8,7 @@ a
     margin: 0px;
     /*  padding: 0px; faz quase a mesma coisa*/
     padding: 0px;
+    /*list-style: none; tirar as bolinhas das lista*/
     list-style: none;
     font-size: 1.2rem;
     font-family: Arial;
