@@ -102,6 +102,13 @@ height: 200px; ou posso uasr o - display: flex - sozinho ;
   /*colocando a img no centro da pagina*/
  background-position: center;
 }
+
+h2{
+  /*vai alinhar no centro*/
+  margin:auto;
+  background:#ff1100;
+  padding: 10px;
+}
   
 .amarelo{
   background:#c3ec09;
