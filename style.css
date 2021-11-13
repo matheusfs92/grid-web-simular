@@ -21,10 +21,12 @@ a {
 }
 .Inicio {
 
-   /*background vai deixar o linha preta do logo, sobre, produtos...*/
+   /*background vai deixar o linha preta home, sobre, produtos...*/
    background: #1d1e20;
+   /*display: flex; vai deixar as caixas sobre, produto...do lado do outros*/
    display: flex;
    flex-wrap: wrap;
+   /*justify-content: space-between; vai dar o espeço entre o logo e home*/
    justify-content: space-between;
    align-items: center;
    /*o padding: 20px vai deixar a linha preta maior(testa)*/
