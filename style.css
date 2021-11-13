@@ -84,11 +84,16 @@ height: 200px; ou posso uasr o - display: flex - sozinho ;
 .cripto {
   display: flex;
   height: 200px;
-  background-image: url("/fotos-math/minhascriptofavoritas.png");
+  background-image: url("fotos-math/minhascriptofavoritas.png");
+/*
+nao colocar /  nao colocar com barra ATENÇAO 
+*/
   margin: 0px;
   padding: 0px;
   /*
   colocar o texto no centro
+
+  <!-- nao colocar /style.css - nao colocar com barra ATENÇAO -->
 */
   justify-content: center;
   /*
