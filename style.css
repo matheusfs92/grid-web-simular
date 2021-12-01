@@ -141,7 +141,7 @@ aqui consigo mexer no tamanho do meu texto
 margin: 0px; para nao dar espaçamento entre meu layout e o texto
 */
 p {
-  font-size: 15px ;
+  font-size: 18px ;
   margin: 0px;
 }
 
@@ -156,25 +156,45 @@ img {
     display: block; }
 
 
-.container{
-  text-align: center;
-  background:#220ed1;
- }
-
-
  .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5px;
 }
 
-.grid
 .grid2{
   background: rgba(0, 0, 0, 0.6);
-  padding: 10px;
+  padding: 10px 10px;
   color: rgb(228, 200, 200);
 }
 
+.flex{
+  display: flex;
+  flex-wrap: wrap; /* vai indicar que pode quebrar a linha*/
+  max-width: 800px;/* vai dar um tamnho maximo */
+  margin: auto;/* vai centralizar a div as img na div*/
+}
+
+.flex > div {
+  flex:1 1 200px ;
+  margin: 10px;/* vai dar espaço */
+}
+/*  padding: 0px; faz quase a mesma coisa*/
+
  /*
  nao ta fincinonando
+ agora ta
 */
+.container{
+  display: flex;
+  
+  width: 25%;
+  margin: 0px;
+  /*  padding: 0px; faz quase a mesma coisa*/
+  padding: 0px;
+}
+
+.container1{
+  text-align: center;
+  background:#220ed1;
+ }
