@@ -144,6 +144,33 @@ p {
   margin: 0px;
 }
 
+.menu{
+  display: flex;}
+
+.menu li{
+  margin-left: 25px;}
+
+img {
+    max-width: 100%;
+    display: block; }
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px;
+}
+
+.grid1 p {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  color: white;
+  grid-column: 1;
+  grid-row: 2;
+  align-self: end;
+}
+
+
+
 footer{
   text-align: center;
 }
