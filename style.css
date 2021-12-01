@@ -73,6 +73,7 @@ fiz asim para ver a linha e outra coisa tive que colocar a margin 0 para juntar 
 }
 
 .roxo{
+  text-align: center;
   background:#c10ed1;
 
 }
@@ -169,22 +170,12 @@ img {
   align-self: end;
 }
 
-
-footer{
-  margin: 0px;
-  padding: 0px;
- background: #0354f7;
-
-}
-
  /*
  nao ta fincinonando
 */
 
 .container{
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  background: #6e8bc5;
   
 }
