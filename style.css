@@ -155,27 +155,26 @@ img {
     max-width: 100%;
     display: block; }
 
-.grid1 {
+
+.container{
+  text-align: center;
+  background:#220ed1;
+ }
+
+
+ .fotos {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 0px;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
 }
 
-.grid1 p {
+.fotos
+.grid2{
   background: rgba(0, 0, 0, 0.6);
   padding: 10px;
-  color: white;
-  grid-column: 1;
-  grid-row: 2;
-  align-self: end;
+  color: rgb(228, 200, 200);
 }
 
  /*
  nao ta fincinonando
 */
-
-.container{
-  text-align: center;
-  background: #6e8bc5;
-  
-}
