@@ -186,8 +186,8 @@ img {
  agora ta
 */
 .wrapper {
-  max-width: 75rem;
-  padding: 2rem;
+  max-width: 85rem;
+  padding: 1rem;
   margin: 0 auto;
 }
 
@@ -305,28 +305,28 @@ img {
   bottom: 0;
   right: 0;
 }
-
+/*
 .gallery__link:hover .gallery__overlay span:before,
 .gallery__link:hover .gallery__overlay span:after {
   width: 100%;    
 }
-
+*/
 
 /* Gallery Image */
 .gallery__image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transform: scale(1.05);
+  object-fit: cover; /* testa - nao vai deixar a img em toda caixa, nao borada */
+  transform: scale(1.05);/* tamanho da img */
   transition: 
       transform .5s,
       filter .5s;
 }
 
-
+/* vai aumentar ou diminuir o tamanho da img */
 .gallery__link:hover .gallery__image {
-  transform: scale(1.2);
-  filter: blur(2px);
+  transform: scale(1.0);
+  filter: blur(0.01px);
 }
 
 
@@ -401,14 +401,17 @@ img {
 }
 */
 
+/*
 .container{
   display: flex;
   
-  width: 25%;
+  width: 0%;
   margin: 0px;
-  /*  padding: 0px; faz quase a mesma coisa*/
+  padding: 0px; 
   padding: 0px;
 }
+
+*/
 
 .container1{
   text-align: center;
