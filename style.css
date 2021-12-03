@@ -191,15 +191,19 @@ img {
   margin: 0 auto;
 }
 
-/* Gallery 12*/
-.gallery {
+/* galeria*/
+
+/*vai mexer com o tamanho das img*/
+.galeria {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 12.5rem);
+  grid-template-rows: repeat(4 , 12.5rem);
   gap: .5rem;
 }
 
 /* Gallery Layout */
+
+/*
 .gallery__item--1 {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
@@ -228,6 +232,13 @@ img {
 .gallery__item--6 {
   grid-column: 3 / span 1;
   grid-row: 4 / span 1;
+}
+
+*/
+/* testar*/
+.gallery__item--6 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
 }
 
 /* Gallery Link */
@@ -310,56 +321,65 @@ img {
       filter .5s;
 }
 
+
 .gallery__link:hover .gallery__image {
   transform: scale(1.2);
   filter: blur(2px);
 }
 
+
+/*
 @media screen and (max-width: 60rem) {
   .wrapper {
       padding: 1rem;
   }
 
-  .gallery {
+  .galeria {
       grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Gallery Layout */
+   Gallery Layout 
   .gallery__item--1 {
-      grid-column: 1 / span 1;
-      grid-row: 1 / span 1;
-  }
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
 
-  .gallery__item--2 {
-      grid-column: 1 / span 1;
-      grid-row: 2 / span 1;
-  }
+.gallery__item--2 {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
 
-  .gallery__item--3 {
-      grid-column: 2 / span 1;
-      grid-row: 1 / span 2;
-  }
+.gallery__item--3 {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 2;
+}
 
-  .gallery__item--4 {
-      grid-column: 1 / span 1;
-      grid-row: 3 / span 2;
-  }
+.gallery__item--4 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 2;
+}
 
-  .gallery__item--5 {
-      grid-column: 2 / span 1;
-      grid-row: 3 / span 1;
-  }
+.gallery__item--5 {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
 
-  .gallery__item--6 {
-      grid-column: 2 / span 1;
-      grid-row: 4 / span 1;
-  }
+.gallery__item--6 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+
 
   .gallery__overlay {
       font-size: 1.25rem;
   }
 }
 
+
+*/
+
+/*
 @media screen and (max-width: 35rem) {
   .gallery {
       display: block;
@@ -377,7 +397,7 @@ img {
       font-size: 1rem;
   }
 }
-
+*/
 
 .container{
   display: flex;
